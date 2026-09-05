@@ -1,0 +1,29 @@
+# Binaries
+/bin/
+*.exe
+
+# Go workspace
+/vendor/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# SQLite database (runtime data, not source)
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.idea/
+.vscode/
+*.swp
+
+# Agent tooling (not part of the project source)
+.agents/
