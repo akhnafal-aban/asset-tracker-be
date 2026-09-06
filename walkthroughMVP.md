@@ -46,7 +46,7 @@ The following REST APIs are now available under `http://localhost:8080`:
 
 And to create a test asset:
 ```bash
-curl -curl -X DELETE http://localhost:8080/api/v1/assets/1X POST http://localhost:8080/api/v1/assets \
+curl -X POST http://localhost:8080/api/v1/assets \
 -H "Content-Type: application/json" \
 -d '{
   "name": "My Emergency Fund",

@@ -1,8 +1,8 @@
 # asset-tracker-be
 
-REST API backend for a **Personal Asset Tracker** — track cash, physical items, stocks, and crypto in one place. Built with Go, the standard library `net/http` router (Go 1.22+ path patterns), and SQLite. Designed as a clean, layered architecture suitable as a portfolio reference for backend Go projects.
+REST API backend for a **Personal Asset Tracker** — track cash, physical items, stocks, and crypto in one place. Built with Go, the standard library `net/http` router (Go 1.22+ path patterns), and SQLite, in a clean `handler → service → repository` layering.
 
-> The companion iOS client (SwiftUI) consumes this API. This repo is the **backend only**.
+> The companion iOS client (SwiftUI) is in [Asset-Tracker](https://github.com/akhnafal-aban/Asset-Tracker). This repo is the **backend only**.
 
 ## Highlights
 
